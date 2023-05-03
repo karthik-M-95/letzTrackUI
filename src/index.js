@@ -1,13 +1,26 @@
 import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap-theme.css';s
 import reportWebVitals from './reportWebVitals';
+import SignIn from './component/Login/SignIn'
+import Login from './component/Login/Login'
+import {BrowserRouter , Routes, Route } from "react-router-dom";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
+
+
   <React.StrictMode>
-    <App />
+  
+  <App />
+    
   </React.StrictMode>
 );
 
